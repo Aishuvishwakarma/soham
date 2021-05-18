@@ -1,0 +1,147 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Grey-light-1: #faf9f9;
+    --Grey-light-2: #f4f2f2;
+    --Grey-light-3: #f0eeee;
+    --Grey-light-4: #ccc;
+    --Grey-dark-1: #333;
+    --Grey-dark-2: #777;
+    --Grey-dark-3: #999;
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form_container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: var(--shadow-dark);
+}
+.form_left{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+.form_right{
+    width: 50%;
+}
+.form_right > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form > img{
+    object-fit: contain;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+.form > h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #3d3d3d;
+}
+.form > p{
+    font-size: 1.3rem;
+}
+.form_group{
+    width: 90%;
+}
+.form_group:first-of-type{margin-top: 3rem;}
+.form_group > input{
+    width: 70%;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    border: 1px solid var(--Grey-dark-3);
+}
+.form_group > span{
+    padding: 0.8rem 1.5rem;
+}
+.form_group > i {
+    color: var(--Grey-dark-2);
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+}
+.form_btns{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0;
+}
+.form_btns > .checkbox > input{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.form_btns > .checkbox{
+    display: flex;
+    align-items: center;
+}
+.form_btns > .checkbox > label{
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    color: #999;
+}
+.form_btns > .logInbtn > a{
+    font-family: inherit;
+    padding: 0.9rem 2.5rem;
+    background-color: #4267B2;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 10px var(--Grey-dark-2)
+}
+.form_span{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.form_span > span{
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #3d3d3d;
+}
+.orSpan{
+    font-size: 1rem;
+    margin: 1.3rem 0;
+}
+.social_form_group{
+    width: 70%;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 5px 10px var(--Grey-dark-2);
+}
+.social_form_group > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.social_form_group > i{
+    float: left;
+    font-size: 2rem;
+    color: white;
+}

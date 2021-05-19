@@ -4,79 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./signUp.css">
+    <script src="https://kit.fontawesome.com/0ccd48ad8b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <title>Sign Up</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  
+    <link rel="stylesheet" href="./SohamLogin.css">
+    <title>Soham</title>
 </head>
 <body>
-        <div class="grid-container">
-            <div class="grid">
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/गुफ़त्गू-221x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/New-Doc-2020-05-30-2_1-203x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/NAV-KANTS-PAINTING-MOOK-SWAR-212x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/SPIRITUAL-MIND-QUARANTINE-300x218.jpg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Passing-300x225.jpeg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/FB_IMG_1615198437458-300x169.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/IMG_20200917_113537_942-300x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Exodus-300x180.jpeg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/गुफ़त्गू-221x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/New-Doc-2020-05-30-2_1-203x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/NAV-KANTS-PAINTING-MOOK-SWAR-212x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/SPIRITUAL-MIND-QUARANTINE-300x218.jpg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Passing-300x225.jpeg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/FB_IMG_1615198437458-300x169.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/IMG_20200917_113537_942-300x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Exodus-300x180.jpeg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/गुफ़त्गू-221x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/New-Doc-2020-05-30-2_1-203x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/NAV-KANTS-PAINTING-MOOK-SWAR-212x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/SPIRITUAL-MIND-QUARANTINE-300x218.jpg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Passing-300x225.jpeg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/FB_IMG_1615198437458-300x169.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/IMG_20200917_113537_942-300x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/Exodus-300x180.jpeg" alt="">
-              </div>
-              <div class="column animate-before">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/गुफ़त्गू-221x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/New-Doc-2020-05-30-2_1-203x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/NAV-KANTS-PAINTING-MOOK-SWAR-212x300.jpg" alt="">
-                <img class="item" src="https://so-ham.in/wp-content/uploads/2021/03/SPIRITUAL-MIND-QUARANTINE-300x218.jpg" alt="">
-              </div>
-            </div> 
-
-
-
-            <div class="signUp">
-                <div class="signUp-heading">
-                    <h1>Sign up to be the part of India's first cultural platform.</h1>
+    <section class="form_container">
+        <div class="form_left">
+            <form id="login" action="" class="form">
+                <img src="./img/5-soham.png" alt="">
+                <h1>Welcome to So-Ham</h1>
+                <p class="span">Find new ideas to try</p>
+                <div class="form_group">
+                    <input type="text" placeholder="Username">
                 </div>
-                <div class="signUp-form">
-                    <form action="">
-                        <img src="./img/5-soham.png" alt="logo">
-                        <h1>Welcome to So-Ham</h1>
-                        <span class="span">Find new ideas to try</span>
-                        <input type="text" name="" id="" placeholder="Email">
-                        <input type="text" name="" id="" placeholder="Create a password">
-                        <input type="text" name="" id="" placeholder="Age">
-                        <button class="con">Continue</button>
-                        <span class="or">OR</span>
-                        <button class="cwf">Continue with facebook</button>
-                    </form>
-                </div>
+                <div class="form_group">
+                  <input type="" placeholder="Full Name">
               </div>
-          </div>
+                <div class="form_group">
+                    <input type="email" placeholder="Eamil">
+                </div>
+                
+              <div class="form_group">
+                <input type="password" placeholder="Password">
+            </div>
+                <div class="form_btns">
+                    <div class="checkbox">
+                        <input type="checkbox" id="Remember" name="" value="checked">
+                        <label for="Remember">Remember me</label>
+                    </div>
+                    <div class="logInbtn">
+                        <a href="#">Sign In</a>
+                    </div>
+                </div>
+               
+            </form>
+        </div>
+        <div class="form_right">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://so-ham.in/wp-content/uploads/2021/03/गुफ़त्गू-221x300.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://so-ham.in/wp-content/uploads/2021/03/NAV-KANTS-PAINTING-MOOK-SWAR-212x300.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://so-ham.in/wp-content/uploads/2021/03/SPIRITUAL-MIND-QUARANTINE-300x218.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://so-ham.in/wp-content/uploads/2021/03/New-Doc-2020-05-30-2_1-203x300.jpg" />
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+          
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+      
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+        
+    </script>
 </body>
 </html>

@@ -125,7 +125,7 @@ body{
 }
 .form_btns > .logInbtn > a{
     font-family: inherit;
-    padding: 0.9rem 2.5rem;
+    padding: 10px 15px;
     background-color: #4267B2;
     color: white;
     text-decoration: none;
@@ -140,6 +140,16 @@ body{
     margin: 0.5rem 0;
     font-size: 1.2rem;
     color: #3d3d3d;
+}
+.form_span > Button{
+    border: none;
+    outline: none;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 12px;
+    background-color: #4267B2;
+    cursor: pointer;
 }
 .orSpan{
     font-size: 1rem;

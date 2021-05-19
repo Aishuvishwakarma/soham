@@ -18,7 +18,7 @@
 <body>
     <section class="form_container">
         <div class="form_left">
-            <form action="" class="form">
+            <form id="login" action="" class="form">
                 <img src="./img/5-soham.png" alt="">
                 <h1>Welcome to So-Ham</h1>
                 <p class="span">Find new ideas to try</p>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="form_span">
-                    <span>Register now</span>
+                    <button id="reg">Register Now</button>
                     <span>Forget password?</span>
                 </div>
 
@@ -89,6 +89,8 @@
 
     <!-- Initialize Swiper -->
     <script>
+
+      
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
         effect: "fade",
